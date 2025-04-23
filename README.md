@@ -33,9 +33,7 @@ The dataset used in this project is real life 'Data Science' jobs posted on vari
 
 ## :one: Does a greater number of skills correlate with higher compensation?
 
-### SKILL
-
-### PowerQuery
+### SKILLS Used: PowerQuery
 
 **Extract**
 
@@ -68,4 +66,50 @@ The dataset used in this project is real life 'Data Science' jobs posted on vari
 
 
 ![Screenshot 2025-04-23 154921](https://github.com/user-attachments/assets/8079c4e2-d7f5-4831-ac49-01675872fe21)
+
+### Analysis
+
+ 💡 Insights
+ 
+ - There exists a positive correlation between the number of skills listed in job postings and the corresponding median salary—most notably in roles such as **Senior Data Engineer** and **Data Scientist**. This suggests that positions requiring a broader skill set tend to offer higher compensation.
+     
+ - Roles that typically require fewer technical skills—such as **Business Analyst**—tend to be associated with lower median salaries. This trend indicates that positions demanding more specialized or diverse skill sets are generally valued higher in the job market.
+     
+![Screenshot 2025-04-23 162120](https://github.com/user-attachments/assets/8b757cb3-5d5c-4de9-83df-e78c02f0dcec)
+
+## 2️⃣ How do salaries for data-related roles vary by region?
+
+### SKILLS Used: PivotTables, DAX & Slicers 
+
+### PivotTable 
+
+- A PivotTable was created using the integrated **Data Model** built with **Power Pivot**, enabling advanced data analysis through relationships across multiple tables and DAX-based calculations.
+- I moved the job_title_short to the rows area and median_salary into the values area.
+- Then I added new measure to calculate the median salary for United States jobs.
+
+```
+=CALCULATE(
+[Median Salary],
+data_all[job_country]="United States")
+```
+
+![Screenshot 2025-04-23 165844](https://github.com/user-attachments/assets/a0b300e7-1e00-436f-b0fe-f09ea7980d4e)
+
+### DAX
+
+ - To Calculate Median Salary 
+   
+   ```
+    =MEDIAN(data_all[salary_year_avg])
+   ```
+ - To Calculate Median Salary for countries other than USA
+   
+   ```
+    =CALCULATE([Median Salary], data_all[job_country]<>"United Stated")
+   ```
+### Slicers 
+
+Slicers were implemented to enable dynamic comparison between the **median salary of a selected country** and that of the **United States**. This interactive functionality allows users to explore salary differentials across regions in a flexible and user-driven manner.
+
+
 
