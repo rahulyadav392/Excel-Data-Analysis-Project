@@ -67,7 +67,7 @@ The dataset used in this project is real life 'Data Science' jobs posted on vari
 
 ![Screenshot 2025-04-23 154921](https://github.com/user-attachments/assets/8079c4e2-d7f5-4831-ac49-01675872fe21)
 
-### Analysis
+### 📊 Analysis
 
  💡 Insights
  
@@ -81,7 +81,7 @@ The dataset used in this project is real life 'Data Science' jobs posted on vari
 
 ### SKILLS Used: PivotTables, DAX & Slicers 
 
-### PivotTable 
+### :white_circle: PivotTable 
 
 - A PivotTable was created using the integrated **Data Model** built with **Power Pivot**, enabling advanced data analysis through relationships across multiple tables and DAX-based calculations.
 - I moved the job_title_short to the rows area and median_salary into the values area.
@@ -95,7 +95,7 @@ data_all[job_country]="United States")
 
 ![Screenshot 2025-04-23 165844](https://github.com/user-attachments/assets/a0b300e7-1e00-436f-b0fe-f09ea7980d4e)
 
-### DAX
+### :white_circle: DAX
 
  - To Calculate Median Salary 
    
@@ -107,9 +107,27 @@ data_all[job_country]="United States")
    ```
     =CALCULATE([Median Salary], data_all[job_country]<>"United Stated")
    ```
-### Slicers 
+### :white_circle: Slicers 
 
 Slicers were implemented to enable dynamic comparison between the **median salary of a selected country** and that of the **United States**. This interactive functionality allows users to explore salary differentials across regions in a flexible and user-driven manner.
 
+### 📊 Analysis
 
+💡 Insights
 
+Job roles like Senior Data Engineer and Data Scientist command higher median salaries both in the US and internationally, showcasing the global demand for high-level data expertise.
+
+## 3️⃣ How do salaries for data-related roles vary by region?
+
+### SKILLS Used: Power Pivot
+
+:white_circle: **Power Pivot**
+
+- I created a data model by integrating the **data_all** and **salary_all_skills** tables into one model.
+
+  **Data Model**
+
+- I created a relationship between my two tables using the job_id column.
+
+ ![Screenshot 2025-04-23 175011](https://github.com/user-attachments/assets/88397312-11f2-46c3-bcde-30eaa70e9589)
+ 
