@@ -6,13 +6,13 @@ This project talks about the link between essential skills and various roles in 
 
 ### Key Questions Explored
 
--Does a greater number of skills correlate with higher compensation?
+- Does a greater number of skills correlate with higher compensation?
 
--How do salaries for data-related roles vary by region?
+- How do salaries for data-related roles vary by region?
 
--What are the most in-demand skills among data professionals?
+- What are the most in-demand skills among data professionals?
 
--What is the average salary associated with the top 10 skills in the field?
+- What is the average salary associated with the top 10 skills in the field?
 
 ### Excel Skills Used
 The following Excel skills were utilized for analysis:
@@ -117,7 +117,7 @@ Slicers were implemented to enable dynamic comparison between the **median salar
 
 Job roles like Senior Data Engineer and Data Scientist command higher median salaries both in the US and internationally, showcasing the global demand for high-level data expertise.
 
-## 3️⃣ How do salaries for data-related roles vary by region?
+## 3️⃣ What are the most in-demand skills among data professionals?
 
 ### SKILLS Used: Power Pivot
 
@@ -125,13 +125,13 @@ Job roles like Senior Data Engineer and Data Scientist command higher median sal
 
 - I created a data model by integrating the **data_all** and **salary_all_skills** tables into one model.
 
-  **Data Model**
+ :white_circle: **Data Model**
 
 - I created a relationship between my two tables using the job_id column.
 
  ![Screenshot 2025-04-23 175011](https://github.com/user-attachments/assets/88397312-11f2-46c3-bcde-30eaa70e9589)
 
- **Power Pivot Menu**
+ :white_circle: **Power Pivot Menu**
 
  Power Pivot Menu was used to to refine data and makes it easier to create measures.
 
@@ -143,3 +143,24 @@ Job roles like Senior Data Engineer and Data Scientist command higher median sal
 - **Azure** and **AWS** also show significant presence, underlying the industry's shift towards cloud services and big data technologies.
 
 ![Screenshot 2025-04-25 204220](https://github.com/user-attachments/assets/5507e950-e200-4e44-8d6f-48e110042ef5)
+
+
+## 4️⃣ What is the average salary associated with the top 10 skills in the field?
+
+### SKILLS Used: Power Pivot
+
+:white_circle: **Pivot Chart**
+
+A Combo PivotChart was created to visualize the relationship between **Median Salary** and **Skill Likelihood (%)** based on the underlying PivotTable.
+
+- Primary Axis: Median Salary, represented using a Clustered Column chart type.
+
+- Secondary Axis: Skill Likelihood (%), displayed as a Line with Markers.
+
+The chart was customized to improve clarity and aesthetics:
+
+- A descriptive chart title and axis titles were added.
+
+- Lines were removed from the Skill Likelihood series to reduce visual clutter.
+
+- Markers were changed to diamond shapes for improved visibility.
