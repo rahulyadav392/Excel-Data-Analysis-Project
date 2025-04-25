@@ -164,3 +164,29 @@ The chart was customized to improve clarity and aesthetics:
 - Lines were removed from the Skill Likelihood series to reduce visual clutter.
 
 - Markers were changed to diamond shapes for improved visibility.
+
+### 📊 Analysis
+
+ 💡 Insights
+
+ - Skills such as **Python,** **Oracle**, and **SQL** are associated with **higher median salaries**, highlighting their significance in **high-paying technical roles**. These technologies appear to be critical skill sets in the current job market.
+ - In contrast, tools like **PowerPoint** and **Microsoft Word** are linked to the **lowest median salaries and skill likelihood**, suggesting they are less specialized and in lower demand within high-compensation roles.
+
+![Screenshot 2025-04-25 211548](https://github.com/user-attachments/assets/25f54199-f0fa-41d1-baa5-28f4dd08a0ff)
+
+## Conclusion
+
+This project demonstrates how advanced Excel tools can be used to extract meaningful insights from real-world job market data. Key features leveraged include:
+
+- Power Query for data cleaning and transformation
+
+- Power Pivot and Data Models for relational analysis
+
+- DAX for creating custom measures (e.g., median salary)
+
+- Pivot Tables & Charts for summarizing and visualizing trends
+
+- Slicers for interactive comparisons across roles and regions
+
+These tools enabled a complete, end-to-end analysis—highlighting how Excel can be a powerful platform for data-driven decision-making in the field of data science.
+
