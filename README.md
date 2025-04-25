@@ -130,4 +130,16 @@ Job roles like Senior Data Engineer and Data Scientist command higher median sal
 - I created a relationship between my two tables using the job_id column.
 
  ![Screenshot 2025-04-23 175011](https://github.com/user-attachments/assets/88397312-11f2-46c3-bcde-30eaa70e9589)
- 
+
+ **Power Pivot Menu**
+
+ Power Pivot Menu was used to to refine data and makes it easier to create measures.
+
+ ### 📊 Analysis
+
+💡 Insights
+
+- **SQL** and **Python** are the top skills required in data domain at 57% and 53%
+- **Azure** and **AWS** also show significant presence, underlying the industry's shift towards cloud services and big data technologies.
+
+![Screenshot 2025-04-25 204220](https://github.com/user-attachments/assets/5507e950-e200-4e44-8d6f-48e110042ef5)
